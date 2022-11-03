@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+        <title>SARAH WHOLESALE</title>
+        <link rel ="stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+        <a href = "index.html"><img src = "images/logo.png"></a>
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick = "hideMenu()"></i>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "services.html">Services</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+
+<!---services--->
+<section class = "services">
+    <h1>Services We Provide To Our Community</h1>
+    <p>Here are just a few</p>
+    <div class = "row">
+        <div class = "services-col">
+        <h3>Volunteering</h3>
+        <p>We dedicate several hours to organizations in our community in order to promote community service and the spirit of helping.</p>
+        </div>
+        <div class = "services-col">
+            <h3>Events</h3>
+            <p>We set up several events a year, including basketball tournaments and lock-in's that garner hundreds of young Muslims and Non Muslim people from across the Greater Houston Area.</p>
+            </div>
+        <div class = "services-col">
+            <h3>Religious Services</h3>
+            <p>We've set up many programs, such as our 6 week Aqeedah seminar and our several Zoom events which garnered hundreds of viewers and participants.</p>
+        </div>
+    </div>
+</section>
+<!------facilities----->
+<section class = "footer">
+    <h4>Want to learn more?</h4>
+    <p>Visit our social media to learn more!</p>>
+    <div class ="icons">
+        <a href = "https://facebook.com/alnooryouth/" target = _blank style = "text-decoration: none !important;">
+            <i class = "fa fa-facebook"></i>
+        </a>
+        <a href = "https://instagram.com/alnooryouth/" target = _blank style = "text-decoration: none !important;">
+            <i class = "fa fa-instagram" ></i>
+        </a>
+        <a href = "https://twitter.com/alnooryouth" target = _blank style = "text-decoration: none !important;">
+            <i class = "fa fa-twitter"></i>
+        </a>
+    </div>
+
+</section>
+<!-------JavaScript for toggle menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-210px";
+        
+    }
+</script>
+
+</body>
+</html>

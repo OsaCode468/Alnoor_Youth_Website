@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+        <title>SARAH WHOLESALE</title>
+        <link rel ="stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+        <a href = "index.html"><img src = "images/logo.png"></a>
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick = "hideMenu()"></i>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "services.html">Services</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+
+<!---about us content 4:30 min on video-->
+</section class = "about-us">
+<div class = "row">
+    <div class = "about-col">
+        <h1>We Are Houston's Number One Youth Group</h1>
+        <p>Since 1981, the Alnoor Society of Greater Houston has been serving the Houston community.<br>
+        In 2016, the youth of this Masjid decided to form a group in order to bring more benefits to<br>
+        the community, particularly targeting the younger generation. Since then, we have<br>
+        accomplished several things, including relief efforts during Hurrican Harvey, as well as<br>
+        helping to feed hundreds of people during the month of Ramadan. We also have yearly <br>
+        lock-in programs that draw members of the youth from all around the Greater Houston<br>
+        Area, as well as Aqeedah seminars, and Halaqas, all free of charge. </p>
+        <a href ="" class = "hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class = "about-col">
+        <img src = "images/about.jpg">
+    </div>
+</div>
+<section>
+       
+    <section class = "footer">
+        <h4>Want to learn more?</h4>
+        <p>Visit our social media to learn more!</p>>
+        <div class ="icons">
+            <a href = "https://facebook.com/alnooryouth/" target = _blank style = "text-decoration: none !important;">
+                <i class = "fa fa-facebook"></i>
+            </a>
+            <a href = "https://instagram.com/alnooryouth/" target = _blank style = "text-decoration: none !important;">
+                <i class = "fa fa-instagram" ></i>
+            </a>
+            <a href = "https://twitter.com/alnooryouth" target = _blank style = "text-decoration: none !important;">
+                <i class = "fa fa-twitter"></i>
+            </a>
+        </div>
+    
+    </section>
+<!-------JavaScript for toggle menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-210px";
+        
+    }
+</script>
+
+</body>
+</html>
